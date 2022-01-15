@@ -1,0 +1,25 @@
+Batch Size : 32 
+ --- 
+ Epochs : 50 
+ --- 
+ Leraning_Rate : 0.0001 
+ --- 
+ Step per epochs : 87 
+ --- 
+ Step per epochs val : 40 
+ --- 
+ train_acc : 0.8586956262588501 
+ --- 
+ val_acc : 0.9045741558074951 
+ --- 
+ train_loss : 0.32596004009246826 
+ --- 
+ val_loss : 0.8586956262588501 
+ --- 
+ Optimizer : Adam 
+ --- 
+ Metrics/Loss : SparseCategoricalCrossEntropy/Accuracy 
+ --- 
+ Architecture : {2: 1, 4: 1, 6: 1, 12: 1, 1: 2, 3: 2, 5: 2, 7: 2, 8: 2, 9: 2, 10: 2, 11: 2, 13: 2} 
+ --- 
+ Taille dict : 13 

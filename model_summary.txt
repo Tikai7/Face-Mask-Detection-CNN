@@ -1,0 +1,68 @@
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ first_conv (Conv2D)         (None, 112, 112, 32)      320       
+                                                                 
+ first_relu (ReLU)           (None, 112, 112, 32)      0         
+                                                                 
+ first_bn (BatchNormalizatio  (None, 112, 112, 32)     128       
+ n)                                                              
+                                                                 
+ tikai_net_block_13 (TikaiNe  (None, 56, 56, 128)      5216      
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_14 (TikaiNe  (None, 28, 28, 256)      35968     
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_15 (TikaiNe  (None, 14, 14, 512)      137472    
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_16 (TikaiNe  (None, 7, 7, 1024)       537088    
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_17 (TikaiNe  (None, 7, 7, 64)         80192     
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_18 (TikaiNe  (None, 7, 7, 128)        9728      
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_19 (TikaiNe  (None, 7, 7, 256)        35840     
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_20 (TikaiNe  (None, 7, 7, 512)        137216    
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_21 (TikaiNe  (None, 7, 7, 512)        271872    
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_22 (TikaiNe  (None, 7, 7, 512)        271872    
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_23 (TikaiNe  (None, 7, 7, 512)        271872    
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_24 (TikaiNe  (None, 7, 7, 512)        271872    
+ tBlock)                                                         
+                                                                 
+ tikai_net_block_25 (TikaiNe  (None, 7, 7, 1024)       536576    
+ tBlock)                                                         
+                                                                 
+ avg_pooling (AveragePooling  (None, 1, 1, 1024)       0         
+ 2D)                                                             
+                                                                 
+ flatten (Flatten)           (None, 1024)              0         
+                                                                 
+ dense_1 (Dense)             (None, 128)               131200    
+                                                                 
+ re_lu_1 (ReLU)              (None, 128)               0         
+                                                                 
+ last_dense (Dense)          (None, 2)                 258       
+                                                                 
+ softmax_1 (Softmax)         (None, 2)                 0         
+                                                                 
+=================================================================
+Total params: 2,734,690
+Trainable params: 2,712,802
+Non-trainable params: 21,888
+_________________________________________________________________
