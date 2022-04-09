@@ -1,5 +1,5 @@
 # Face-Mask-Detection-CNN
-  - This CNN represent the architecture of MobileNetV2 CNN's
+  - This CNN represent the architecture of MobileNetV1 CNN's
   - Model Size after training : 36mb
   - Accuracy >= 90%
   - Training time with Ryzen 5 3600, 97minutes
